@@ -16,9 +16,9 @@
 #include <fcntl.h>
 #include <string.h>
 #include <errno.h>
+#include <hidapi/hidapi.h>
 
 #include "adapter.h"
-#include "hidapi.h"
 #include "pickit2.h"
 #include "pic32.h"
 

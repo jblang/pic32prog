@@ -13,9 +13,9 @@
 #include <fcntl.h>
 #include <string.h>
 #include <errno.h>
+#include <hidapi/hidapi.h>
 
 #include "adapter.h"
-#include "hidapi.h"
 #include "pic32.h"
 
 #define FRAME_SOH           0x01
